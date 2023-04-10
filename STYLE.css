@@ -1,8 +1,19 @@
-body{
-    background-color: brown;
-}
-
-textarea{
-    background-color: aquamarine;
-    border-radius: 10px; 
-}
+.botones-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .boton {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave en el cambio de color de fondo */
+  }
+  
+  .boton:hover {
+    background-color: darkgreen; /* Color de fondo al pasar el cursor sobre el botón */
+  }
