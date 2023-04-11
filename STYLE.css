@@ -1,21 +1,36 @@
 
-.botones-container {
+  
+ .logocontainer {
+    max-width: 100%; /* Ajusta el tamaño de la imagen para que no se desborde del contenedor */
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 10vb; /* Establece la altura del contenedor para ocupar el 100% de la altura de la ventana */
+    text-align: center;
+    margin-top: 0; 
+      
   }
   
-  .boton {
-    background-color: green;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    margin: 0 10px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Transición suave en el cambio de color de fondo */
-  }
-  
-  .boton:hover {
-    background-color: darkgreen; /* Color de fondo al pasar el cursor sobre el botón */
-  }
-  
+
+h1 {
+    color: black;
+    max-width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vb;
+}
+
+.subtexto {
+
+    max-width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+
+}
+.subtexto{
+    text-align: center;
+    margin-top: 0; 
+}
