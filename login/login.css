@@ -18,7 +18,8 @@ background: #2b2d36;
     position: relative;
     width: 380px;
     height: 420px;
-    background-color: #1c1c1c;
+    background-color: white; /*  este es el bodrde blanco externo */
+    color: white;
     border-radius: 8px;
 }
 
@@ -41,16 +42,17 @@ background: #2b2d36;
     position: relative;
     width:300px;
     margin-top: 35px;
+
 }
 .box form .inputbox input{
     position: relative;
     width: 100%;
     padding: 20px 10px 10px;
-    background: transparent;
+    background: none;
     outline: none;
     border:none;
     box-shadow: none;
-    color: #23242a;
+    color: white;
     font-size: 1em;
     letter-spacing: 0.05em;
     transition:0.5s;
@@ -86,6 +88,7 @@ background: #2b2d36;
     overflow:hidden;
     transition: 0.5s;
     pointer-events: none;
+    display: block;
     
 }
 .box form .inputbox input:valid ~ i,
@@ -104,7 +107,6 @@ background: #2b2d36;
 }
 .box form .links:hover,
 .box form .links.links:nth-last-child(2)
-
 {
     color:#fff;
 
